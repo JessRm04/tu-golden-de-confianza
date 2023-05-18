@@ -1,3 +1,5 @@
 # ✨ Tu golden de confianza te aconseja ✨
 
-Adaptación de "tu michi de confianza te aconseja", de @TeffCode, para impartir una masterclass sobre el uso de javascript.
+Pequeño proyecto de javascript realizado para impartir una masterclass sobre el uso de este lenguaje.
+
+Idea y referencia tomada de: @TeffCode
