@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu perrete sabio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>🐶 Tu perrete sabio te aconseja 🐾</h1>
+  </header>
+  <section>
+    <div>
+      <figure>
+        <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTnsI8B1k8CsUeDAvDRXo6q5f-EvThayrcYA&usqp=CAU" alt="perrete sabio">
+      </figure>
+      <p>Soy tu perrete de confianza y estoy aquí para ponerte contento :3</p>
+      <button onclick="isToastVisible('visible')">Recibir consejo</button>
+    </div>
+  </section>
+  <footer>
+    <div id="toast">
+      <div id="emoji">🌷</div>
+      <p id="phrase">"Florecer exige pasar por todas las estaciones."</p>
+      <button onclick="setPhraseAndCloseToast()"></button>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
